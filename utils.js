@@ -1,0 +1,1 @@
+export const truncate = (str, n) => str.length < n ? str : str.slice(0, n) + "..."
