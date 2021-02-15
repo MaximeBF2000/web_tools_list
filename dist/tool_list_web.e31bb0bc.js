@@ -29783,7 +29783,7 @@ var _default = {
   lang: "french",
   selectedCategory: "all",
   selectedPrice: "all",
-  proposalPopupIsOpen: true
+  proposalPopupIsOpen: false
 };
 exports.default = _default;
 },{}],"context/reducer.js":[function(require,module,exports) {
@@ -33253,7 +33253,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50243" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57044" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
