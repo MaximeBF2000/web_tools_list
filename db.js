@@ -142,7 +142,7 @@ export default {
       url: "https://calendly.com/fr",
       french: "Outil de gestion de vos rendez-vous, lié à votre boîte mail Google",
       english: "",
-      price: "free"
+      price: "freemium"
     },
     // Presentation
     {
@@ -299,7 +299,7 @@ export default {
       url: "https://mailchimp.com/fr/",
       french: "Plateforme de gestion de campagnes d'email, Landing page, gestion de mailing list, retargeting...",
       english: "",
-      price: "pay"
+      price: "freemium"
     }
   ]
 }

@@ -33177,7 +33177,7 @@ var _default = {
     url: "https://calendly.com/fr",
     french: "Outil de gestion de vos rendez-vous, lié à votre boîte mail Google",
     english: "",
-    price: "free"
+    price: "freemium"
   }, // Presentation
   {
     id: "microsoft_powerpoint",
@@ -33319,7 +33319,7 @@ var _default = {
     url: "https://mailchimp.com/fr/",
     french: "Plateforme de gestion de campagnes d'email, Landing page, gestion de mailing list, retargeting...",
     english: "",
-    price: "pay"
+    price: "freemium"
   }]
 };
 exports.default = _default;
@@ -33388,7 +33388,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57678" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59267" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
