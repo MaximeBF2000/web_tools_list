@@ -7,6 +7,12 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   column-gap: 5rem;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    column-gap: unset;
+    row-gap: 1rem;
+  }
 `
 
 export const Select = styled.select.attrs(() => ({ type: "select" }))`
@@ -25,4 +31,9 @@ export const ShowProposalPopupButton = styled.button`
   color: white;
   padding: 0 2rem;
   font-size: .85rem;
+  text-align: center;
+
+  @media screen and (max-width: 800px) {
+    padding: .8rem 2rem;
+  }
 `

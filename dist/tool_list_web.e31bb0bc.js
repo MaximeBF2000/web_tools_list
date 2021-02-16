@@ -32261,7 +32261,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 3rem;\n  font-weight: bold;\n  margin-bottom: .5rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 3rem;\n  font-weight: bold;\n  margin-bottom: .5rem;\n  text-align: center;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32271,7 +32271,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 60vh;\n  background-image: url(", ");\n  filter: grayscale(.5);\n  background-size: cover;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  text-shadow: 0 1px 5px black;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 60vh;\n  background-image: url(", ");\n  filter: grayscale(.5);\n  background-size: cover;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  text-shadow: 0 1px 5px black;\n  padding: 0 1rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32332,7 +32332,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  all: unset;\n  cursor: pointer;\n  outline: none;\n  border: none;\n  background-color: #00FF65;\n  color: white;\n  padding: 0 2rem;\n  font-size: .85rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  all: unset;\n  cursor: pointer;\n  outline: none;\n  border: none;\n  background-color: #00FF65;\n  color: white;\n  padding: 0 2rem;\n  font-size: .85rem;\n  text-align: center;\n\n  @media screen and (max-width: 800px) {\n    padding: .8rem 2rem;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32352,7 +32352,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  background-color: lightgrey;\n  padding: 2rem;\n  display: flex;\n  justify-content: center;\n  column-gap: 5rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  background-color: lightgrey;\n  padding: 2rem;\n  display: flex;\n  justify-content: center;\n  column-gap: 5rem;\n\n  @media screen and (max-width: 800px) {\n    flex-direction: column;\n    column-gap: unset;\n    row-gap: 1rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32511,7 +32511,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-gap: 2rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-gap: 2rem;\n\n  @media screen and (max-width: 800px) {\n    grid-template-columns: 1fr;\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -32551,7 +32551,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  row-gap: 5rem;\n  padding: 2rem 5rem;\n  padding-bottom: 10rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  row-gap: 5rem;\n  padding: 2rem 5rem;\n  padding-bottom: 10rem;\n\n  @media screen and (max-width: 800px) {\n    padding: 2rem 1rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32722,7 +32722,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  display: flex;\n  column-gap: 2rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  column-gap: 2rem;\n\n  @media screen and (max-width: 800px) {\n    flex-direction: column;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32924,13 +32924,104 @@ var _ToolList = _interopRequireDefault(require("./ToolList"));
 var _ProposalPopup = _interopRequireDefault(require("./ProposalPopup"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Header":"components/Header/index.js","./Filtrer":"components/Filtrer/index.js","./ToolList":"components/ToolList/index.js","./ProposalPopup":"components/ProposalPopup/index.js"}],"db.js":[function(require,module,exports) {
+},{"./Header":"components/Header/index.js","./Filtrer":"components/Filtrer/index.js","./ToolList":"components/ToolList/index.js","./ProposalPopup":"components/ProposalPopup/index.js"}],"assets/app_images/canva.png":[function(require,module,exports) {
+module.exports = "/canva.a04e66de.png";
+},{}],"assets/app_images/photoshop.png":[function(require,module,exports) {
+module.exports = "/photoshop.1b425522.png";
+},{}],"assets/app_images/evernote.png":[function(require,module,exports) {
+module.exports = "/evernote.f267e510.png";
+},{}],"assets/app_images/notion.png":[function(require,module,exports) {
+module.exports = "/notion.8d948e6b.png";
+},{}],"assets/app_images/word.png":[function(require,module,exports) {
+module.exports = "/word.fc3ad271.png";
+},{}],"assets/app_images/g_docs.png":[function(require,module,exports) {
+module.exports = "/g_docs.868eb5c9.png";
+},{}],"assets/app_images/asana.png":[function(require,module,exports) {
+module.exports = "/asana.617d6541.png";
+},{}],"assets/app_images/zoom.png":[function(require,module,exports) {
+module.exports = "/zoom.90dce280.png";
+},{}],"assets/app_images/powerpoint.png":[function(require,module,exports) {
+module.exports = "/powerpoint.eaa02cca.png";
+},{}],"assets/app_images/g_slides.png":[function(require,module,exports) {
+module.exports = "/g_slides.ea20df3f.png";
+},{}],"assets/app_images/premiere_pro.png":[function(require,module,exports) {
+module.exports = "/premiere_pro.89c7c28d.png";
+},{}],"assets/app_images/finalcut.png":[function(require,module,exports) {
+module.exports = "/finalcut.dde4711e.png";
+},{}],"assets/app_images/obs.png":[function(require,module,exports) {
+module.exports = "/obs.5dbab765.png";
+},{}],"assets/app_images/unsplash.png":[function(require,module,exports) {
+module.exports = "/unsplash.ccb1e48d.png";
+},{}],"assets/app_images/pixabay.png":[function(require,module,exports) {
+module.exports = "/pixabay.a47fbd90.png";
+},{}],"assets/app_images/pexels.png":[function(require,module,exports) {
+module.exports = "/pexels.514812ff.png";
+},{}],"assets/app_images/freepik.png":[function(require,module,exports) {
+module.exports = "/freepik.d88b5db6.png";
+},{}],"assets/app_images/coverr.png":[function(require,module,exports) {
+module.exports = "/coverr.86d665a3.png";
+},{}],"assets/app_images/wordpress.png":[function(require,module,exports) {
+module.exports = "/wordpress.44aba931.png";
+},{}],"assets/app_images/shopify.png":[function(require,module,exports) {
+module.exports = "/shopify.17c24737.png";
+},{}],"assets/app_images/squarespace.png":[function(require,module,exports) {
+module.exports = "/squarespace.d0cfd271.png";
+},{}],"assets/app_images/mailchimp.png":[function(require,module,exports) {
+module.exports = "/mailchimp.24b14d02.png";
+},{}],"db.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+
+var _canva = _interopRequireDefault(require("./assets/app_images/canva.png"));
+
+var _photoshop = _interopRequireDefault(require("./assets/app_images/photoshop.png"));
+
+var _evernote = _interopRequireDefault(require("./assets/app_images/evernote.png"));
+
+var _notion = _interopRequireDefault(require("./assets/app_images/notion.png"));
+
+var _word = _interopRequireDefault(require("./assets/app_images/word.png"));
+
+var _g_docs = _interopRequireDefault(require("./assets/app_images/g_docs.png"));
+
+var _asana = _interopRequireDefault(require("./assets/app_images/asana.png"));
+
+var _zoom = _interopRequireDefault(require("./assets/app_images/zoom.png"));
+
+var _powerpoint = _interopRequireDefault(require("./assets/app_images/powerpoint.png"));
+
+var _g_slides = _interopRequireDefault(require("./assets/app_images/g_slides.png"));
+
+var _premiere_pro = _interopRequireDefault(require("./assets/app_images/premiere_pro.png"));
+
+var _finalcut = _interopRequireDefault(require("./assets/app_images/finalcut.png"));
+
+var _obs = _interopRequireDefault(require("./assets/app_images/obs.png"));
+
+var _unsplash = _interopRequireDefault(require("./assets/app_images/unsplash.png"));
+
+var _pixabay = _interopRequireDefault(require("./assets/app_images/pixabay.png"));
+
+var _pexels = _interopRequireDefault(require("./assets/app_images/pexels.png"));
+
+var _freepik = _interopRequireDefault(require("./assets/app_images/freepik.png"));
+
+var _coverr = _interopRequireDefault(require("./assets/app_images/coverr.png"));
+
+var _wordpress = _interopRequireDefault(require("./assets/app_images/wordpress.png"));
+
+var _shopify = _interopRequireDefault(require("./assets/app_images/shopify.png"));
+
+var _squarespace = _interopRequireDefault(require("./assets/app_images/squarespace.png"));
+
+var _mailchimp = _interopRequireDefault(require("./assets/app_images/mailchimp.png"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var _default = {
   categories: [{
     id: "design",
@@ -32982,7 +33073,7 @@ var _default = {
     id: "canva",
     name: "Canva",
     category: "design",
-    image: "https://www.e-monsite.com/medias/images/canva-logo.png",
+    image: _canva.default,
     url: "https://www.canva.com/",
     french: "Outil de création de contenu visuel en ligne gratuit simple à utiliser",
     english: "",
@@ -32991,7 +33082,7 @@ var _default = {
     id: "photoshop",
     name: "Adobe Photoshop",
     category: "design",
-    image: "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/6a/6a9c4358-3a04-4864-9ad6-3ef41e8b365f",
+    image: _photoshop.default,
     url: "https://www.adobe.com/fr/products/photoshop.html",
     french: "Outil de création de contenu visuel très complet",
     english: "",
@@ -33001,7 +33092,7 @@ var _default = {
     id: "evernote",
     name: "Evernote",
     category: "note_taking",
-    image: "https://evernote.com/blog/wp-content/uploads/2018/08/favicon.png",
+    image: _evernote.default,
     url: "https://evernote.com/intl/fr",
     french: "Outil de prise de note gratuit",
     english: "",
@@ -33010,7 +33101,7 @@ var _default = {
     id: "notion",
     name: "Notion",
     category: "note_taking",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    image: _notion.default,
     url: "https://www.notion.so/",
     french: "Outil de prise de note partageable très poussé (intégration d'image, de vidéos...)",
     english: "",
@@ -33019,7 +33110,7 @@ var _default = {
     id: "microsoft_word",
     name: "Microsoft Word",
     category: "note_taking",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Word_2013_logo.svg/1200px-Microsoft_Word_2013_logo.svg.png",
+    image: _word.default,
     url: "https://www.microsoft.com/fr-fr/microsoft-365/word",
     french: "Outil de rédaction",
     english: "",
@@ -33028,7 +33119,7 @@ var _default = {
     id: "google_docs",
     name: "Google Docs",
     category: "note_taking",
-    image: "https://www.vousnavezpaslesbases.com/wp-content/uploads/2019/01/docs.png",
+    image: _g_docs.default,
     url: "https://docs.google.com/",
     french: "Outil de rédaction en ligne partageable en équipe",
     english: "",
@@ -33038,7 +33129,7 @@ var _default = {
     id: "asana",
     name: "Asana",
     category: "project_management",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/1280px-Asana_logo.svg.png",
+    image: _asana.default,
     url: "https://app.asana.com/",
     french: "Outil de prise de gestion de projet, agile scrum, kanban, grant. Gestion du temps, todo list, gestion d'équipes par email",
     english: "",
@@ -33047,7 +33138,7 @@ var _default = {
     id: "zoom",
     name: "Zoom",
     category: "project_management",
-    image: "http://assets.stickpng.com/images/5e8ce318664eae0004085461.png",
+    image: _zoom.default,
     url: "https://zoom.us/fr-fr/meetings.html",
     french: "Outil de communication en meeting vidéo, facetime",
     english: "",
@@ -33057,7 +33148,7 @@ var _default = {
     id: "microsoft_powerpoint",
     name: "Microsoft Powerpoint",
     category: "presentation",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_PowerPoint_%282013%E2%80%932018%29.svg/768px-Microsoft_Office_PowerPoint_%282013%E2%80%932018%29.svg.png",
+    image: _powerpoint.default,
     url: "https://www.microsoft.com/fr-fr/microsoft-365/powerpoint",
     french: "Outil de présentation avec slides / visuels, idéal pour des présentation orals de projets",
     english: "",
@@ -33066,7 +33157,7 @@ var _default = {
     id: "google_slides",
     name: "Google Slides",
     category: "presentation",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png",
+    image: _g_slides.default,
     url: "https://www.google.fr/intl/fr/slides/about/",
     french: "Outil de présentation en ligne partageable avec slides / visuels, idéal pour des présentation orals de projets",
     english: "",
@@ -33076,7 +33167,7 @@ var _default = {
     id: "adobe_premierepro",
     name: "Adobe Premiere Pro",
     category: "video_editing",
-    image: "https://images.tuto.net/blog/premiere-cs6-logo.png",
+    image: _premiere_pro.default,
     url: "https://www.adobe.com/fr/products/premiere.html?mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQiA1KiBBhCcARIsAPWqoSqYbqHkP5zr0iRPFyEUqEaF5A1kfUBpliMwwxUU5bwuE26hOIqrJE0aAr1yEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015808!e!!g!!premiere%20pro!1435912734!56537474099&gclid=Cj0KCQiA1KiBBhCcARIsAPWqoSqYbqHkP5zr0iRPFyEUqEaF5A1kfUBpliMwwxUU5bwuE26hOIqrJE0aAr1yEALw_wcB",
     french: "Montage vidéo avancé",
     english: "",
@@ -33085,7 +33176,7 @@ var _default = {
     id: "finalcutpro",
     name: "Final Cut Pro",
     category: "video_editing",
-    image: "https://upload.wikimedia.org/wikipedia/fr/a/a5/Final_Cut_Pro_Logo_2015.png",
+    image: _finalcut.default,
     url: "https://www.apple.com/fr/final-cut-pro/",
     french: "Montage vidéo poussé (logiciel disponible uniquement sur macOS)",
     english: "",
@@ -33095,7 +33186,7 @@ var _default = {
     id: "obs",
     name: "OBS",
     category: "video_recording",
-    image: "https://www.espacemultimediagantner.cg90.net/wp-content/uploads/2019/03/1024px-OBS.svg_.png",
+    image: _obs.default,
     url: "https://obsproject.com/fr",
     french: "Record vidéo de votre écran",
     english: "",
@@ -33105,7 +33196,7 @@ var _default = {
     id: "unsplash",
     name: "Unsplash",
     category: "get_images",
-    image: "http://assets.stickpng.com/thumbs/5cb4839d5f1b6d3fbadece7c.png",
+    image: _unsplash.default,
     url: "https://unsplash.com/",
     french: "Plateforme de photos / images à récupérer, gratuite ou avec nécéssité d'accréditation",
     english: "",
@@ -33114,7 +33205,7 @@ var _default = {
     id: "pixabay",
     name: "Pixabay",
     category: "get_images",
-    image: "https://image.flaticon.com/icons/png/512/23/23346.png",
+    image: _pixabay.default,
     url: "https://pixabay.com/",
     french: "Plateforme de photos / images à récupérer, gratuite ou avec nécéssité d'accréditation",
     english: "",
@@ -33123,7 +33214,7 @@ var _default = {
     id: "pexels",
     name: "Pexels",
     category: "get_images",
-    image: "https://www.e-monsite.com/medias/images/pexels.png",
+    image: _pexels.default,
     url: "https://www.pexels.com/fr-fr/",
     french: "Plateforme de photos / images à récupérer, gratuite ou avec nécéssité d'accréditation",
     english: "",
@@ -33132,7 +33223,7 @@ var _default = {
     id: "freepik",
     name: "Freepik",
     category: "get_images",
-    image: "https://image.flaticon.com/icons/png/512/64/64186.png",
+    image: _freepik.default,
     url: "https://fr.freepik.com/",
     french: "Plateforme de photos / images à récupérer, gratuite ou avec nécéssité d'accréditation",
     english: "",
@@ -33142,7 +33233,7 @@ var _default = {
     id: "coverr",
     name: "Coverr",
     category: "get_videos",
-    image: "https://coverr.co/assets/images/coverr-icon-round-black.png",
+    image: _coverr.default,
     url: "https://coverr.co/",
     french: "Plateforme de vidéos à récupérer, gratuite ou avec nécéssité d'accréditation",
     english: "",
@@ -33152,7 +33243,7 @@ var _default = {
     id: "wordpress",
     name: "WordPress",
     category: "website_builder",
-    image: "http://crapaudvoyageur.com/wp-content/uploads/2019/11/logo-wordpress-e1519319060902.png",
+    image: _wordpress.default,
     url: "https://fr.wordpress.org/",
     french: "CMS (Content Managing System) pour créer votre site web, extensible avec un grand nombre de plugins, et utilisé par environ 1 site web sur 3",
     english: "",
@@ -33161,7 +33252,7 @@ var _default = {
     id: "shopify",
     name: "Shopify",
     category: "website_builder",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shopify_logo.svg/1200px-Shopify_logo.svg.png",
+    image: _shopify.default,
     url: "https://www.shopify.fr/",
     french: "CMS spécialisé dans la création de E-commerce, facile à utiliser et extensible avec des un grand nombre d'applications",
     english: "",
@@ -33170,7 +33261,7 @@ var _default = {
     id: "squarespace",
     name: "Squarespace",
     category: "website_builder",
-    image: "https://images.squarespace-cdn.com/content/v1/54a5505fe4b0d132f64e0e9b/1591009624125-2N9AI6PPG48C45ONY73S/ke17ZwdGBToddI8pDm48kII-SYbU1Wrvupggd9LelOZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm8z11QrYV4E_gqyUSYpqTBGBqEuESOKh5JhVbRhWAPSHGiVtAbBKIneovE0cnnh4m/Squarespace-Logo.png",
+    image: _squarespace.default,
     url: "https://fr.squarespace.com/",
     french: "CMS en ligne de création de site web",
     english: "",
@@ -33180,7 +33271,7 @@ var _default = {
     id: "mailchimp",
     name: "Mailchimp",
     category: "email_marketing",
-    image: "http://assets.stickpng.com/images/58417f6ba6515b1e0ad75a2b.png",
+    image: _mailchimp.default,
     url: "https://mailchimp.com/fr/",
     french: "Plateforme de gestion de campagnes d'email, Landing page, gestion de mailing list, retargeting...",
     english: "",
@@ -33188,7 +33279,7 @@ var _default = {
   }]
 };
 exports.default = _default;
-},{}],"index.js":[function(require,module,exports) {
+},{"./assets/app_images/canva.png":"assets/app_images/canva.png","./assets/app_images/photoshop.png":"assets/app_images/photoshop.png","./assets/app_images/evernote.png":"assets/app_images/evernote.png","./assets/app_images/notion.png":"assets/app_images/notion.png","./assets/app_images/word.png":"assets/app_images/word.png","./assets/app_images/g_docs.png":"assets/app_images/g_docs.png","./assets/app_images/asana.png":"assets/app_images/asana.png","./assets/app_images/zoom.png":"assets/app_images/zoom.png","./assets/app_images/powerpoint.png":"assets/app_images/powerpoint.png","./assets/app_images/g_slides.png":"assets/app_images/g_slides.png","./assets/app_images/premiere_pro.png":"assets/app_images/premiere_pro.png","./assets/app_images/finalcut.png":"assets/app_images/finalcut.png","./assets/app_images/obs.png":"assets/app_images/obs.png","./assets/app_images/unsplash.png":"assets/app_images/unsplash.png","./assets/app_images/pixabay.png":"assets/app_images/pixabay.png","./assets/app_images/pexels.png":"assets/app_images/pexels.png","./assets/app_images/freepik.png":"assets/app_images/freepik.png","./assets/app_images/coverr.png":"assets/app_images/coverr.png","./assets/app_images/wordpress.png":"assets/app_images/wordpress.png","./assets/app_images/shopify.png":"assets/app_images/shopify.png","./assets/app_images/squarespace.png":"assets/app_images/squarespace.png","./assets/app_images/mailchimp.png":"assets/app_images/mailchimp.png"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33253,7 +33344,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57044" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50796" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

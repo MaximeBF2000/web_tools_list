@@ -11,6 +11,10 @@ export const Container = styled.form`
 export const FieldRow = styled.div`
   display: flex;
   column-gap: 2rem;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
 `
 
 const FieldContainer = styled.div`

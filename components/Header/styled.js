@@ -13,12 +13,14 @@ export const Container = styled.header`
   align-items: center;
   color: white;
   text-shadow: 0 1px 5px black;
+  padding: 0 1rem;
 `
 
 export const Title = styled.h1`
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: .5rem;
+  text-align: center;
 `
 
 export const Description = styled.h1`

@@ -6,6 +6,10 @@ export const MainContainer = styled.main`
   row-gap: 5rem;
   padding: 2rem 5rem;
   padding-bottom: 10rem;
+
+  @media screen and (max-width: 800px) {
+    padding: 2rem 1rem;
+  }
 `
 
 export const CategoriesContainer = styled.div``
@@ -24,6 +28,10 @@ export const ItemContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const Item = styled.a.attrs(() => ({ target: "_blank" }))`
