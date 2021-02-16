@@ -32940,6 +32940,10 @@ module.exports = "/g_docs.868eb5c9.png";
 module.exports = "/asana.617d6541.png";
 },{}],"assets/app_images/zoom.png":[function(require,module,exports) {
 module.exports = "/zoom.90dce280.png";
+},{}],"assets/app_images/g_agenda.png":[function(require,module,exports) {
+module.exports = "/g_agenda.a64c91d5.png";
+},{}],"assets/app_images/calendly.png":[function(require,module,exports) {
+module.exports = "/calendly.8ac1aa69.png";
 },{}],"assets/app_images/powerpoint.png":[function(require,module,exports) {
 module.exports = "/powerpoint.eaa02cca.png";
 },{}],"assets/app_images/g_slides.png":[function(require,module,exports) {
@@ -32950,6 +32954,8 @@ module.exports = "/premiere_pro.89c7c28d.png";
 module.exports = "/finalcut.dde4711e.png";
 },{}],"assets/app_images/obs.png":[function(require,module,exports) {
 module.exports = "/obs.5dbab765.png";
+},{}],"assets/app_images/loom.png":[function(require,module,exports) {
+module.exports = "/loom.573d8e4d.png";
 },{}],"assets/app_images/unsplash.png":[function(require,module,exports) {
 module.exports = "/unsplash.ccb1e48d.png";
 },{}],"assets/app_images/pixabay.png":[function(require,module,exports) {
@@ -32992,6 +32998,10 @@ var _asana = _interopRequireDefault(require("./assets/app_images/asana.png"));
 
 var _zoom = _interopRequireDefault(require("./assets/app_images/zoom.png"));
 
+var _g_agenda = _interopRequireDefault(require("./assets/app_images/g_agenda.png"));
+
+var _calendly = _interopRequireDefault(require("./assets/app_images/calendly.png"));
+
 var _powerpoint = _interopRequireDefault(require("./assets/app_images/powerpoint.png"));
 
 var _g_slides = _interopRequireDefault(require("./assets/app_images/g_slides.png"));
@@ -33001,6 +33011,8 @@ var _premiere_pro = _interopRequireDefault(require("./assets/app_images/premiere
 var _finalcut = _interopRequireDefault(require("./assets/app_images/finalcut.png"));
 
 var _obs = _interopRequireDefault(require("./assets/app_images/obs.png"));
+
+var _loom = _interopRequireDefault(require("./assets/app_images/loom.png"));
 
 var _unsplash = _interopRequireDefault(require("./assets/app_images/unsplash.png"));
 
@@ -33035,6 +33047,10 @@ var _default = {
     id: "project_management",
     french: "Gestion de projets",
     english: "Project management"
+  }, {
+    id: "time_management",
+    french: "Gestion du temps",
+    english: "Time management"
   }, {
     id: "presentation",
     french: "Présentation",
@@ -33143,6 +33159,25 @@ var _default = {
     french: "Outil de communication en meeting vidéo, facetime",
     english: "",
     price: "free"
+  }, // Time management
+  {
+    id: "g_agenda",
+    name: "Google Agenda",
+    category: "time_management",
+    image: _g_agenda.default,
+    url: "https://www.google.com/intl/fr/calendar/about/",
+    french: "Outil de gestion de votre calendrier, relier à votre boîte mail",
+    english: "",
+    price: "free"
+  }, {
+    id: "calendly",
+    name: "Calendly",
+    category: "time_management",
+    image: _calendly.default,
+    url: "https://calendly.com/fr",
+    french: "Outil de gestion de vos rendez-vous, lié à votre boîte mail Google",
+    english: "",
+    price: "free"
   }, // Presentation
   {
     id: "microsoft_powerpoint",
@@ -33181,7 +33216,7 @@ var _default = {
     french: "Montage vidéo poussé (logiciel disponible uniquement sur macOS)",
     english: "",
     price: "pay"
-  }, // Screen recording
+  }, // Video recording
   {
     id: "obs",
     name: "OBS",
@@ -33191,6 +33226,15 @@ var _default = {
     french: "Record vidéo de votre écran",
     english: "",
     price: "free"
+  }, {
+    id: "loom",
+    name: "Loom",
+    category: "video_recording",
+    image: _loom.default,
+    url: "https://www.loom.com/",
+    french: "Outil en ligne de recording vidéo de votre écran et votre webcam & d'hébergement de vos vidéos, facile et rapide à utiliser",
+    english: "",
+    price: "freemium"
   }, // Get Images
   {
     id: "unsplash",
@@ -33279,7 +33323,7 @@ var _default = {
   }]
 };
 exports.default = _default;
-},{"./assets/app_images/canva.png":"assets/app_images/canva.png","./assets/app_images/photoshop.png":"assets/app_images/photoshop.png","./assets/app_images/evernote.png":"assets/app_images/evernote.png","./assets/app_images/notion.png":"assets/app_images/notion.png","./assets/app_images/word.png":"assets/app_images/word.png","./assets/app_images/g_docs.png":"assets/app_images/g_docs.png","./assets/app_images/asana.png":"assets/app_images/asana.png","./assets/app_images/zoom.png":"assets/app_images/zoom.png","./assets/app_images/powerpoint.png":"assets/app_images/powerpoint.png","./assets/app_images/g_slides.png":"assets/app_images/g_slides.png","./assets/app_images/premiere_pro.png":"assets/app_images/premiere_pro.png","./assets/app_images/finalcut.png":"assets/app_images/finalcut.png","./assets/app_images/obs.png":"assets/app_images/obs.png","./assets/app_images/unsplash.png":"assets/app_images/unsplash.png","./assets/app_images/pixabay.png":"assets/app_images/pixabay.png","./assets/app_images/pexels.png":"assets/app_images/pexels.png","./assets/app_images/freepik.png":"assets/app_images/freepik.png","./assets/app_images/coverr.png":"assets/app_images/coverr.png","./assets/app_images/wordpress.png":"assets/app_images/wordpress.png","./assets/app_images/shopify.png":"assets/app_images/shopify.png","./assets/app_images/squarespace.png":"assets/app_images/squarespace.png","./assets/app_images/mailchimp.png":"assets/app_images/mailchimp.png"}],"index.js":[function(require,module,exports) {
+},{"./assets/app_images/canva.png":"assets/app_images/canva.png","./assets/app_images/photoshop.png":"assets/app_images/photoshop.png","./assets/app_images/evernote.png":"assets/app_images/evernote.png","./assets/app_images/notion.png":"assets/app_images/notion.png","./assets/app_images/word.png":"assets/app_images/word.png","./assets/app_images/g_docs.png":"assets/app_images/g_docs.png","./assets/app_images/asana.png":"assets/app_images/asana.png","./assets/app_images/zoom.png":"assets/app_images/zoom.png","./assets/app_images/g_agenda.png":"assets/app_images/g_agenda.png","./assets/app_images/calendly.png":"assets/app_images/calendly.png","./assets/app_images/powerpoint.png":"assets/app_images/powerpoint.png","./assets/app_images/g_slides.png":"assets/app_images/g_slides.png","./assets/app_images/premiere_pro.png":"assets/app_images/premiere_pro.png","./assets/app_images/finalcut.png":"assets/app_images/finalcut.png","./assets/app_images/obs.png":"assets/app_images/obs.png","./assets/app_images/loom.png":"assets/app_images/loom.png","./assets/app_images/unsplash.png":"assets/app_images/unsplash.png","./assets/app_images/pixabay.png":"assets/app_images/pixabay.png","./assets/app_images/pexels.png":"assets/app_images/pexels.png","./assets/app_images/freepik.png":"assets/app_images/freepik.png","./assets/app_images/coverr.png":"assets/app_images/coverr.png","./assets/app_images/wordpress.png":"assets/app_images/wordpress.png","./assets/app_images/shopify.png":"assets/app_images/shopify.png","./assets/app_images/squarespace.png":"assets/app_images/squarespace.png","./assets/app_images/mailchimp.png":"assets/app_images/mailchimp.png"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33344,7 +33388,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50796" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57678" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

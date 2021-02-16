@@ -6,11 +6,14 @@ import image_word from "./assets/app_images/word.png"
 import image_gDocs from "./assets/app_images/g_docs.png"
 import image_asana from "./assets/app_images/asana.png"
 import image_zoom from "./assets/app_images/zoom.png"
+import image_gAgenda from "./assets/app_images/g_agenda.png"
+import image_calendly from "./assets/app_images/calendly.png"
 import image_powerpoint from "./assets/app_images/powerpoint.png"
 import image_gSlides from "./assets/app_images/g_slides.png"
 import image_premierePro from "./assets/app_images/premiere_pro.png"
 import image_finalcut from "./assets/app_images/finalcut.png"
 import image_obs from "./assets/app_images/obs.png"
+import image_loom from "./assets/app_images/loom.png"
 import image_unsplash from "./assets/app_images/unsplash.png"
 import image_pixabay from "./assets/app_images/pixabay.png"
 import image_pexels from "./assets/app_images/pexels.png"
@@ -26,6 +29,7 @@ export default {
     { id: "design", french: "Design", english: "Design" },
     { id: "note_taking", french: "Prise de note", english: "Note taking" },
     { id: "project_management", french: "Gestion de projets", english: "Project management" },
+    { id: "time_management", french: "Gestion du temps", english: "Time management" },
     { id: "presentation", french: "Présentation", english: "Presentation" },
     { id: "video_editing", french: "Montage vidéo", english: "Video editing" },
     { id: "video_recording", french: "Record vidéo", english: "Video recording" },
@@ -119,6 +123,27 @@ export default {
       english: "",
       price: "free"
     },
+    // Time management
+    {
+      id: "g_agenda",
+      name: "Google Agenda",
+      category: "time_management",
+      image: image_gAgenda,
+      url: "https://www.google.com/intl/fr/calendar/about/",
+      french: "Outil de gestion de votre calendrier, relier à votre boîte mail",
+      english: "",
+      price: "free"
+    },
+    {
+      id: "calendly",
+      name: "Calendly",
+      category: "time_management",
+      image: image_calendly,
+      url: "https://calendly.com/fr",
+      french: "Outil de gestion de vos rendez-vous, lié à votre boîte mail Google",
+      english: "",
+      price: "free"
+    },
     // Presentation
     {
       id: "microsoft_powerpoint",
@@ -161,7 +186,7 @@ export default {
       english: "",
       price: "pay"
     },
-    // Screen recording
+    // Video recording
     {
       id: "obs",
       name: "OBS",
@@ -171,6 +196,16 @@ export default {
       french: "Record vidéo de votre écran",
       english: "",
       price: "free"
+    },
+    {
+      id: "loom",
+      name: "Loom",
+      category: "video_recording",
+      image: image_loom,
+      url: "https://www.loom.com/",
+      french: "Outil en ligne de recording vidéo de votre écran et votre webcam & d'hébergement de vos vidéos, facile et rapide à utiliser",
+      english: "",
+      price: "freemium"
     },
     // Get Images
     {
